@@ -138,9 +138,8 @@ public class BalloonRelativeLayout extends RelativeLayout {
 
 
     /**
-     * 自定义曲线的两个控制点，随机在屏幕上的任何一个位置
+     * 自定义曲线的两个控制点，随机在ViewGroup上的任何一个位置
      */
-
     private PointF getPointF() {
         PointF pointF = new PointF();
         pointF.x = random.nextInt(mWidth);

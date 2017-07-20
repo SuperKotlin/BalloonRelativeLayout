@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity implements MediaPlayer.OnPre
     private BalloonRelativeLayout mBalloonRelativeLayout;
     private VideoView mVideoView;
 
-    private int TIME = 100;//这里默认100毫米添加一个气泡
+    private int TIME = 100;//这里默认每隔100毫秒添加一个气泡
     Handler mHandler = new Handler();
     Runnable runnable = new Runnable() {
 
